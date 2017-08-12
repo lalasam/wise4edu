@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
   `admin_password` varchar(50) DEFAULT NULL,
   `admin_email` varchar(50) DEFAULT NULL,
   `status` char(1) DEFAULT 'A',
-  PRIMARY KEY (`a_id`)
+  PRIMARY KEY (`admin_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- 내보낼 데이터가 선택되어 있지 않습니다.
