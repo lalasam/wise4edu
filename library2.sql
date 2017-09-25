@@ -27,8 +27,7 @@ CREATE TABLE IF NOT EXISTS `book` (
   PRIMARY KEY (`book_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='book management';
 
--- 내보낼 데이터가 선택되어 있지 않습니다.
--- 테이블 library.book_management 구조 내보내기
+
 CREATE TABLE IF NOT EXISTS `book_management` (
   `book_id` int(11) NOT NULL,
   `book_location` varchar(20) DEFAULT NULL,
